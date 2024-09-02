@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGET AURA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>BUDGET AURA</h1>
+          <span id="element3"></span>
+        </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="Service.html">Services</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="Login.html" id="loginToggle">Login</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome to <span class="highlight">BUDGET AURA</span></h2>
+            <span id="element"></span>
+            <!-- <p>Your ultimate tool for managing your budget effectively.Start taking control of your finances today.</p> -->
+            <button id="learnMoreButton">Learn More</button>
+        </section>
+        <section id="info" class="hidden">
+            <h3>About Us</h3>
+            <span id="element1"></span>
+            <!-- <p>BUDGET AURA helps you keep track of your finances and optimize your spending with advanced budgeting tools and insights.</p>
+            <p>Discover how our platform can transform your financial habits and help you achieve your financial goals.</p> -->
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: [
+      '<strong>Your ultimate tool for managing your budget effectively. Start taking control of your finances today.</strong>',
+      ''
+    ],
+    typeSpeed: 40,
+    contentType: 'html', // Ensure that HTML content is rendered correctly
+  });
+</script>
+<script>
+  var typed = new Typed('#element1', {
+    strings: [
+      'BUDGET AURA helps you keep track of your finances and optimize your spending with advanced budgeting tools and insights.Discover how our platform can transform your financial habits and help you achieve your financial goals.'
+    ],
+    typeSpeed: 40,
+    contentType: 'html', // Ensure that HTML content is rendered correctly
+  });
+</script>
+<script>
+  var typed = new Typed('#element3', {
+    strings: [
+      '<strong>THE WAY TO YOUR WALLET</strong>'
+    ],
+    typeSpeed: 40,
+    contentType: 'html', // Ensure that HTML content is rendered correctly
+  });
+</script>
+
+    </div>
+
+    <footer>
+        <p class="footer">&copy; 2024 BUDGET AURA. All rights reserved.</p>
+    </footer>
+    <script src="Main_page.js"></script>
+</body>
+</html>

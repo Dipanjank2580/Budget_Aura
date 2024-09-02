@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced BUDGET AURA</title>
+    <link rel="stylesheet" href="Service.css">
+</head>
+<body>
+    <header>
+        <h1>BUDGET AURA</h1>
+    </header>
+
+    <main class="container">
+        <section class="balance-section">
+            <h2>Balance: ₹<span id="balance">0.00</span></h2>
+            <div class="summary">
+                <div class="income">
+                    <h3>Income</h3>
+                    <p>₹<span id="income">0.00</span></p>
+                </div>
+                <div class="expense">
+                    <h3>Expense</h3>
+                    <p>₹<span id="expense">0.00</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="input-section">
+            <input type="text" id="description" placeholder="Enter description">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="add">Add</button>
+        </section>
+
+        <section>
+            <ul id="transactions" class="transactions">
+                <!-- Transactions will be added here -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="Service.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5; /* Light Gray Background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFFFFF; /* White Background for Container */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #003366; /* Deep Blue for Heading */
+}
+
+.balance-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.balance-section h2 {
+    margin-bottom: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary div {
+    width: 48%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.income {
+    background-color: #E6FFE6; /* Light Green Background for Income */
+    color: #4CAF50; /* Soft Green Text for Income */
+}
+
+.expense {
+    background-color: #FFE6E6; /* Light Coral Background for Expense */
+    color: #FF5722; /* Warm Coral Text for Expense */
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.input-section input,
+.input-section select {
+    width: calc(25% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.input-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366; /* Deep Blue Button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: #002244; /* Darker Blue on Hover */
+}
+
+.transactions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF; /* White Background for Transactions */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.transactions li.income-item {
+    border-left: 5px solid #4CAF50; /* Soft Green Border for Income Items */
+}
+
+.transactions li.expense-item {
+    border-left: 5px solid #FF5722; /* Warm Coral Border for Expense Items */
+}
+
+.transactions li button {
+    background: none;
+    border: none;
+    color: #FF5722; /* Warm Coral Text for Delete Button */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.transactions li button:hover {
+    color: #BD2130; /* Darker Coral on Hover */
+}

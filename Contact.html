@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <!-- Logo or additional content can be added here -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="Service.html">Services</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-box">
+            <form id="contactForm">
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Enter Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Enter Your Email-Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="query">Enter Your Query:</label>
+                <textarea id="query" name="query" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="Contact.js"></script>
+</body>
+</html>
